@@ -16,6 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p715/proprietary/bin/sensord:system/bin/sensord \
+    vendor/lge/p715/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/lge/p715/proprietary/lib/hw/power.msm7x27a.so:system/lib/hw/power.msm7x27a.so \
     vendor/lge/p715/proprietary/lib/hw/nfc.msm7x27a.so:system/lib/hw/nfc.msm7x27a.so \
     vendor/lge/p715/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p715/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
